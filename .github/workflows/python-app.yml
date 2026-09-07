@@ -2,7 +2,6 @@ name: get stock price
 
 on:
   schedule:
-    # 原始 Cron: */5 1-6 * * 1-5 (對應台灣時間 09:00 - 14:30，考慮 UTC+8 時區差 8 小時)
     - cron: "*/5 1-6 * * 1-5"
 
 jobs:
