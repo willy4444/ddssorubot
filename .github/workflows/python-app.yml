@@ -6,7 +6,7 @@ name: get stock price
 
 	  schedule:
 
-	    - cron: "*/5 * * * *"
+	    - cron: ""*/5 9-14 * * 1-5"
 
 	 
 
