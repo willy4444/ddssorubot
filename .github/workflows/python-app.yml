@@ -2,6 +2,7 @@ name: get stock price
 
 on:
   schedule:
+    # 台灣時間 09:00 - 14:30 對應 UTC 時間 01:00 - 06:30
     - cron: "*/5 1-6 * * 1-5"
 
 jobs:
